@@ -11,13 +11,15 @@
     "pg": "^8.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "node index.js",
     "start:dev": "nodemon index.js",
-    "build": "mkdir -p build && echo 'Custom build script for API'",
-    "test": "react-scripts test"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
