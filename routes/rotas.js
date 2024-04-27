@@ -8,7 +8,7 @@ const {rotasLogins} = require('./rotasLogin')
 const rotas = new Router();
 
 rotas.use(rotasUsuarios);
-rotas.use(rotasEventos);
+rotas.use(rotasEventos)
 rotas.use(rotasLogins);
 
 
